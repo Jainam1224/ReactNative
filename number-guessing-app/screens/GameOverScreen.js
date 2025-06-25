@@ -36,9 +36,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   imageContainer: {
-    width: deviceWidth < 380 ? 150 : 300,
-    height: deviceWidth < 380 ? 150 : 300,
-    borderRadius: deviceWidth < 380 ? 75 : 150,
+    width: deviceWidth < 250 ? 150 : 300,
+    height: deviceWidth < 250 ? 150 : 300,
+    borderRadius: deviceWidth < 250 ? 75 : 150,
     borderWidth: 3,
     borderColor: Colors.primary800,
     overflow: "hidden",
